@@ -13,6 +13,8 @@ function App() {
   const Remove = ()=>{
     if(counter>0)
     setCounter(counter-1)
+    else
+    alert("You can not enter Negative value")
 
   }
 
