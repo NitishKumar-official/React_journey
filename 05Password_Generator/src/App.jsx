@@ -37,6 +37,8 @@ function App() {
     password_ref.current?.setSelectionRange(0,999)
     window.navigator.clipboard.writeText(password)
   },[password])
+
+  
   
  
 
